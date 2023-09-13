@@ -11,10 +11,11 @@ public class AddFileForEncoding {
     public  String addPath() {
         Scanner console = new Scanner(System.in);
         this.path = Path.of(console.nextLine());
+
         return verificationFile(path);
     }
-public String verificationFile(Path path) {
-        return "File is accepted";
+public boolean verificationFile(Path path) {
+        return true;
 }
     public Path getPath() {
         return path;
