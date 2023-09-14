@@ -4,19 +4,23 @@ import java.nio.file.Path;
 import java.util.Scanner;
 
 public class AddFileForEncoding {
-
-
     private Path path;
 
-    public  String addPath() {
+    public void addPath() {
         Scanner console = new Scanner(System.in);
-        this.path = Path.of(console.nextLine());
-
-        return verificationFile(path);
+        if (verificationFile(path)) {
+            this.path = Path.of(console.nextLine());
+            System.out.println("File accepted");
+        } else {
+            throw new FileException();
+        }
     }
-public boolean verificationFile(Path path) {
+
+    public boolean verificationFile(Path path) {
+
         return true;
-}
+    }
+
     public Path getPath() {
         return path;
     }
