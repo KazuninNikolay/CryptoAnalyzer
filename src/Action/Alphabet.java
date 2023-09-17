@@ -22,5 +22,4 @@ public class Alphabet {
         ALPHABET.addAll(Arrays.asList(RU_ALPHABET));
         ALPHABET.addAll(Arrays.asList(EN_ALPHABET));
     }
-
 }
