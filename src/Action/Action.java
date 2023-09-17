@@ -1,9 +1,17 @@
 package Action;
 
-import UserCommunication.Result;
 
-import java.nio.file.Path;
+import WorkingWithFiles.UploadingFileForEncoding;
 
-public interface Action {
- //  Result result = new Result().printMessageOfCancel(Path.of());
+
+import java.util.List;
+
+public class Action {
+    public void action() {
+       List<Character> read = new UploadingFileForEncoding().addFileForReading();
+        for (Character character : read) {
+            System.out.print(character);
+        }
+        System.out.println("read.toString()");
+    }
 }
