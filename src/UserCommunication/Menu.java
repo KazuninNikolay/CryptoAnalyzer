@@ -1,8 +1,7 @@
 package UserCommunication;
 
 import Action.Action;
-import WorkingWithFiles.AddPathForDecoding;
-import WorkingWithFiles.AddPathForEncoding;
+import WorkingWithFiles.AddPath;
 
 import java.util.Scanner;
 
@@ -11,7 +10,12 @@ public class Menu {
         return numberOfMenu;
     }
 
-    private int numberOfMenu;
+    /**
+     * Меню, и координация начальных методов. numberOfMenu - указывает выбранный пункт,
+     *                                        action - в addPath, для дальнейшего направления на нужную проверку.
+     * Статистический анализ не реализовал.
+     */
+    private static int numberOfMenu;
 
     public void runMenu() {
         while (true) {
@@ -19,28 +23,35 @@ public class Menu {
             Scanner console = new Scanner(System.in);
             int itemMenu = console.nextInt();
             if (itemMenu == 1) {
-                this.numberOfMenu = 1;
+                numberOfMenu = 1;
                 PrintItemMenu.printEnterPathEncoding();
-                new AddPathForEncoding().addPath();
+                new AddPath().addPath(1);
                 PrintItemMenu.printEnterPathDecoding();
-                new AddPathForDecoding().addPath();
+                new AddPath().addPath(2);
                 PrintItemMenu.enterKey();
-                new Action().action();
+                Action encoding = new Action();
+                encoding.key();
+                encoding.readAndPushFile();
             } else if (itemMenu == 2) {
-                this.numberOfMenu = 2;
+                numberOfMenu = 2;
                 PrintItemMenu.printEnterPathDecoding();
-                new AddPathForDecoding().addPath();
-                PrintItemMenu.printEnterPathDecoding();
-                new AddPathForEncoding().addPath();
-                PrintItemMenu.enterKey();
-            } else if (itemMenu == 3) {
-                this.numberOfMenu = 3;
+                new AddPath().addPath(1);
                 PrintItemMenu.printEnterPathEncoding();
-                new AddPathForEncoding().addPath();
+                new AddPath().addPath(2);
+                PrintItemMenu.enterKey();
+                Action encoding = new Action();
+                encoding.key();
+                encoding.readAndPushFile();
+            } else if (itemMenu == 3) {
+                numberOfMenu = 3;
+                PrintItemMenu.printEnterPathEncoding();
+                new AddPath().addPath(1);
                 PrintItemMenu.printEnterPathDecoding();
-                new AddPathForDecoding().addPath();
+                new AddPath().addPath(2);
+                Action encoding = new Action();
+                encoding.readAndPushFile();
             } else if (itemMenu == 4) {
-                this.numberOfMenu = 4;
+                numberOfMenu = 4;
                 PrintItemMenu.printEnterPathHacking();
 
                 PrintItemMenu.printEnterPathByAnalyze();
