@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2f50c352-ff34-425f-af85-d0572c0e2a5f" name="Changes" comment="Trigger pipelines">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CryptoAnalyzer.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CryptoAnalyzer/Action/Action.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CryptoAnalyzer/Action/Alphabet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CryptoAnalyzer/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CryptoAnalyzer/UserCommunication/Menu.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CryptoAnalyzer/UserCommunication/PrintItemMenu.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CryptoAnalyzer/WorkingWithFiles/AddPath.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CryptoAnalyzer/WorkingWithFiles/FileValidateException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CryptoAnalyzer/WorkingWithFiles/FileVerification.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CryptoAnalyzer/WorkingWithFiles/UploadingFile.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="new-empty-branch" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="MIXED" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="8be70442-7618-4034-8c6f-5a566d2c1b1d" />
+        <option name="url" value="https://github.com/KazuninNikolay/CryptoAnalyzer.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2VKiwq3XQZi0d9JdLCidacsO3e0" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "",
+    "last_opened_file_path": "C:/Users/NikolayKazunin/JavaProject/CryptoAnalyzer",
+    "onboarding.tips.debug.path": "C:/Users/NikolayKazunin/JavaProject/CryptoAnalyzer/src/Main.java"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="WorkingWithFiles" />
+      <recent name="UserCommunication" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="UserCommunication" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="CryptoAnalyzer" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2f50c352-ff34-425f-af85-d0572c0e2a5f" name="Changes" comment="" />
+      <created>1694591413824</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1694591413824</updated>
+    </task>
+    <task id="LOCAL-00001" summary="commit README.md">
+      <option name="closed" value="true" />
+      <created>1694593913375</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1694593913375</updated>
+    </task>
+    <task id="LOCAL-00002" summary="commit add Menu and structure created">
+      <option name="closed" value="true" />
+      <created>1694644878638</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1694644878638</updated>
+    </task>
+    <task id="LOCAL-00003" summary="commit add Menu and structure created">
+      <option name="closed" value="true" />
+      <created>1694645302127</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1694645302127</updated>
+    </task>
+    <task id="LOCAL-00004" summary="commit add Menu and structure created">
+      <option name="closed" value="true" />
+      <created>1694686924110</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1694686924110</updated>
+    </task>
+    <task id="LOCAL-00005" summary="commit add Menu and structure created">
+      <option name="closed" value="true" />
+      <created>1694988711329</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1694988711329</updated>
+    </task>
+    <task id="LOCAL-00006" summary="commit add Menu and structure created">
+      <option name="closed" value="true" />
+      <created>1694988917821</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1694988917821</updated>
+    </task>
+    <task id="LOCAL-00007" summary="commit working version">
+      <option name="closed" value="true" />
+      <created>1695480557462</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1695480557462</updated>
+    </task>
+    <task id="LOCAL-00008" summary="commit working version">
+      <option name="closed" value="true" />
+      <created>1695480706430</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1695480706430</updated>
+    </task>
+    <task id="LOCAL-00009" summary="commit working version">
+      <option name="closed" value="true" />
+      <created>1695484663843</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1695484663843</updated>
+    </task>
+    <task id="LOCAL-00010" summary="commit working version examination">
+      <option name="closed" value="true" />
+      <created>1695484718660</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1695484718660</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Trigger pipelines">
+      <option name="closed" value="true" />
+      <created>1695642297399</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1695642297399</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Trigger pipelines">
+      <option name="closed" value="true" />
+      <created>1695644178381</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1695644178381</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="commit README.md" />
+    <MESSAGE value="commit add Menu and structure created" />
+    <MESSAGE value="commit add verification, buffered reader" />
+    <MESSAGE value="commit working version" />
+    <MESSAGE value="commit working version examination" />
+    <MESSAGE value="Trigger pipelines" />
+    <option name="LAST_COMMIT_MESSAGE" value="Trigger pipelines" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.IndexOutOfBoundsException" package="java.lang" />
+          <option name="timeStamp" value="41" />
+        </breakpoint>
+      </breakpoints>
+      <default-breakpoints>
+        <breakpoint enabled="true" type="java-exception" />
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
