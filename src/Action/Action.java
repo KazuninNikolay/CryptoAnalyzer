@@ -111,7 +111,7 @@ public class Action {
 
     private boolean validateBrutefore() {
         Alphabet alphabet = new Alphabet();
-        int length = Math.min(5000, alphabet.getSize);
+        int length = Math.min(5000, decodedList.size());
         float count = 0F;
         for (int i = 0; i < length; i++) {
             String temporaryWord = String.valueOf(decodedList.get(i)) + decodedList.get(i + 1);
